@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to cart</title>
+    <link rel="shortcut icon" href="MM.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <header>
+        <div style="width: 20%;">
+            <img src = "img/crown.png" style="width: 35%; margin-left: -45%;">
+        </div>
+        <div class="logo" style="display: fixed;">
+            <span id="logo-title" title="Shopping Cart" style = "font-family: times, serif; color: black; font-size: 30px; margin-left: -50%;">C R O W N </span>
+        </div>
+        <!-- <a href="./cart/cart.html"> -->
+        <div style="display: flex;">
+            <a href = ""><button class = "font" style="color: black; font-size: 15px; border: 0px; background-color: whitesmoke; padding-right: 20px; cursor: pointer;">Sign Up</button></a>
+            <a href = "login.html"><button class = "font" style="color: black; font-size: 15px; border: 0px; background-color: whitesmoke; cursor: pointer;">Sign In</button></a>
+        </div>
+        <!-- </a> -->
+        
+        <div class="cart-container">
+            <div class="cart-title" style="font-family: times, serif; margin-top: 5%;">Cart Items</div>
+            <div class="cart-content">
+                <i name="close" id="cart-close" class="bi bi-x" style="margin-top: .7%;"></i>
+            </div>
+            <div class="total">
+                <div class="total-title" style="font-family: times, serif;">Total</div>
+                <div class="total-price" style="font-family: times, serif;">PHP.0</div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <main>
+        <div class="products" style="background-color: whitesmoke;">
+            <div class="img">
+                <a href = "blast.html"><img src="img/blasthoodie.png"
+                    class="product-img" alt="blast hoodie"></a>
+            </div>
+            <div class="details">
+                <div class="product-title">
+                    <a href="blast.html" id="product-title" class = "font">Blast Washed Hoodie</a>
+                </div>
+                <ul>
+                    <li class = "font">Unisex</li>
+                    <li class = "font">Boxy</li>
+                    <li class = "font">Fashionable</li>
+                    <li class = "font">Black and White</li>
+                </ul>
+            </div>
+
+            <p id="price" class = "font">500 PHP</p>
+            <a href = "login.html"><button id="btn-cart"  style="font-family: 'Times New Roman', Times, serif;"><i class="bi bi-cart-plus"></i> Add to cart</button></a>
+</a>
+        </div>
+
+        <div class="products">
+            <div class="img">
+                <a href = "y2k.html"><img src="img/y2k.png"
+                    class="product-img" alt="y2k hoodie"></a>
+            </div>
+            <div class="details">
+                <div class="product-title">
+                    <a href="y2k.html" id="product-title" class = "font">Y2K Hiphop Hoodie</a>
+                </div>
+                <ul>
+                    <li class = "font">Unisex</li>
+                    <li class = "font">Boxy</li>
+                    <li class = "font">Fashionable</li>
+                    <li class = "font">Black</li>
+                </ul>
+            </div>
+            <p id="price" class = "font">750 PHP</p>
+            <a href = "login.html"><button id="btn-cart" class="btn-cart" style="font-family: 'Times New Roman', Times, serif;"><i class="bi bi-cart-plus"></i> Add to cart</button></a>
+        </div>
+
+        <div class="products" style="background-color: whitesmoke;">
+            <div class="img">
+                <a href="mclaren.html"><img src="img/mclaren.png"
+                    class="product-img" alt="iphone14">
+                </a>
+            </div>
+            <div class="details">
+                <div class="product-title">
+                    <a href="mclaren.html" id="product-title" class = "font">McLaren Leather Jacket</a>
+                </div>
+                <ul>
+                    <li class = "font">Unisex</li>
+                    <li class = "font">Leather</li>
+                    <li class = "font">Fashionable</li>
+                    <li class = "font">Black and White</li>
+                </ul>
+            </div>
+            <p id="price" class = "font">1000 PHP</p>
+            <a href = "login.html"><button id="btn-cart" class="btn-cart" style="font-family: 'Times New Roman', Times, serif;"><i class="bi bi-cart-plus" ></i> Add to cart</button></a>
+        </div>
+
+        <div class="products">
+            <div class="img">
+                <img src="img/windbreaker.jpg"
+                    class="product-img" alt="iphone14">
+            </div>
+            <div class="details">
+                <div class="product-title">
+                    <a href="#" id="product-title" class = "font">Nike Windbreaker Jacket</a>
+                </div>
+                <ul>
+                    <li class = "font">Unisex</li>
+                    <li class = "font">Windbreaker</li>
+                    <li class = "font">Fashionable</li>
+                    <li class = "font">Multiple Colorway</li>
+                </ul>
+            </div>
+            <p id="price" class = "font">700 PHP</p>
+            <a href = "login.html"><button id="btn-cart" class="btn-cart" style="font-family: 'Times New Roman', Times, serif;"><i class="bi bi-cart-plus" ></i> Add to cart</button></a>
+        </div>
+
+        <div class="products" style="background-color: whitesmoke;">
+            <div class="img">
+                <a href="mclaren.html"><img src="img/cropped.png"
+                    class="product-img" alt="iphone14">
+                </a>
+            </div>
+            <div class="details">
+                <div class="product-title">
+                    <a href="mclaren.html" id="product-title" class = "font">Cropped Bomber Jacket</a>
+                </div>
+                <ul>
+                    <li class = "font">Unisex</li>
+                    <li class = "font">Leather</li>
+                    <li class = "font">Fashionable</li>
+                    <li class = "font">Black and White</li>
+                </ul>
+            </div>
+            <p id="price" class = "font">650 PHP</p>
+            <a href = "login.html"><button id="btn-cart" class="btn-cart" style="font-family: 'Times New Roman', Times, serif;"><i class="bi bi-cart-plus" ></i> Add to cart</button></a>
+        </div>
+
+        <div class="products">
+            <div class="img">
+                <img src="img/lambo.png"
+                    class="product-img" alt="iphone14">
+            </div>
+            <div class="details">
+                <div class="product-title">
+                    <a href="#" id="product-title" class = "font">Lamborghini Windbreaker</a>
+                </div>
+                <ul>
+                    <li class = "font">Unisex</li>
+                    <li class = "font">Windbreaker</li>
+                    <li class = "font">Fashionable</li>
+                    <li class = "font">Multiple Colorway</li>
+                </ul>
+            </div>
+            <p id="price" class = "font">1000 PHP</p>
+            <a href = "login.html"><button id="btn-cart" class="btn-cart" style="font-family: 'Times New Roman', Times, serif;"><i class="bi bi-cart-plus" ></i> Add to cart</button></a>
+        </div>
+        <div style = "height: 200px; background-color: #000500;">
+
+        </div>
+    
+</body>
+
+</html>
